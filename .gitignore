@@ -1,3 +1,5 @@
 /.idea/
 /.stfolder/
 /.gradle/
+gradlew
+gradlew.bat
