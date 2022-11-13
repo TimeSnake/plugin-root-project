@@ -1,5 +1,40 @@
 subprojects {
+
+    apply plugin: 'java-base'
+    apply plugin: 'java'
+    apply plugin: 'maven-publish'
+
     tasks.withType(JavaCompile) {
         options.failOnError(false)
+        options.encoding = 'UTF-8'
     }
+
+    task sourceJar(type: Jar) {
+        classifier = 'sources'
+        from sourceSets.main.allJava
+    }
+
+    task gitPush(type: Exec) {
+        description('Pushes to ' + project.git_url)
+        commandLine('git', 'push', 'origin', 'master')
+    }
+
+    task gitPull(type: Exec) {
+        description('Pushes to ' + project.git_url)
+        commandLine('git', 'pull', 'origin', 'master')
+    }
+
+    publishing {
+        publications {
+            mavenJava(MavenPublication) {
+                from components.java
+                artifact sourceJar {
+                    classifier "sources"
+                }
+            }
+        }
+    }
+
+    sourceCompatibility = 1.17
+    targetCompatibility = 1.17
 }
