@@ -13,10 +13,9 @@
 **Installation**
 
 1. Open a terminal in the project directory.
-2. Clone this repository.
-3. Run `bash <(curl -s https://dev.timesnake.de/server/setup.sh)`.
-4. Download the templates folder to the `network` directory.
-5. Upload the database files by putting them into the `network/script/database` folder.
+2. Run `curl -s https://dev.timesnake.de/server/setup.sh -O setup.sh && bash setup.sh`.
+3. Download the templates folder to the `network` directory.
+4. Upload the database files by putting them into the `network/script/database` folder.
    Run the `database_recovery.sh` script.
 
 **Server-Start**
