@@ -5,7 +5,6 @@ subprojects {
     apply plugin: 'maven-publish'
 
     tasks.withType(JavaCompile) {
-        options.failOnError(false)
         options.encoding = 'UTF-8'
     }
 
