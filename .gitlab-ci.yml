@@ -1,5 +1,8 @@
 image: gradle:alpine
 
+variables:
+  GIT_STRATEGY: fetch
+
 before_script:
   - GRADLE_USER_HOME="$(pwd)/.gradle"
   - export GRADLE_USER_HOME
