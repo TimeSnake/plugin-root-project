@@ -19,10 +19,10 @@ build:
   tags:
     - gradle
 
-include:
-  - template: Code-Quality.gitlab-ci.yml
+#include:
+#  - template: Code-Quality.gitlab-ci.yml
 
-code_quality:
-  services:
-  tags:
-    - cq-sans-dind
+#code_quality:
+#  services:
+#  tags:
+#    - cq-sans-dind
