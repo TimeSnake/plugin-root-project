@@ -15,12 +15,12 @@ subprojects {
 
     task gitPush(type: Exec) {
         description('Pushes to ' + project.git_url)
-        commandLine('git', 'push', 'origin', 'master')
+        commandLine('git', 'push', 'origin', 'main')
     }
 
     task gitPull(type: Exec) {
         description('Pushes to ' + project.git_url)
-        commandLine('git', 'pull', 'origin', 'master')
+        commandLine('git', 'pull', 'origin', 'main')
     }
 
     publishing {
