@@ -16,3 +16,8 @@ build:
 
 include:
   - template: Code-Quality.gitlab-ci.yml
+
+code_quality:
+  services:
+  tags:
+    - cq-sans-dind
