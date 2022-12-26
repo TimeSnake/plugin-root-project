@@ -1,37 +1,41 @@
-## Setup
+# Setup
 
-### Workspace and Test-Server
+## Workspace
 
-**Requirements**
+### Requirements
 
-- [ ] Java 17 or 18
-- [ ] Maven 2
-- [ ] Gradle
-- [ ] Mysql Database Server
-- [ ] Command-Line: curl, sed, tmux (optional)
+- Java 17+
+- Maven 2
+- Gradle
 
-**Installation**
+### Installation
 
-1. Open a terminal in the project directory.
-2. Run `curl -s https://dev.timesnake.de/server/setup.sh -O setup.sh && bash setup.sh`.
-3. Download the templates folder to the `network` directory.
-4. Upload the database files by putting them into the `network/script/database` folder.
-   Run the `database_recovery.sh` script.
+1. Set up an ssh-key
+2. Run `git clone git@git.timsnake.de:timesnake/plugin-root-project.git`
+3. Change to `plugin-root-project/setup/`
+4. Run the `./init.sh` script
 
-**Server-Start**
+## Test-Server
+
+### Requirements
+
+- Java 17+
+- Mysql-Server (see below)
+- tmux
+- curl, sed (only for installation)
+
+### Installation
+
+*in progress, contact @funzter for help*
+
+### Running
 
 1. Change to the proxy server directory `network/servers/000_proxy`.
 2. Run `./start.sh tmux` (recommended) or `./start.sh`.
 
-### MySQL Database Server
+### MySQL/MariaDB Database Server
 
-1. Setup database mysql-server (`apt install mysql-server`)
+1. Setup a database mysql or mariadb server
 2. Import the datasets into the database with the recovery script.
-    - Copy the `.sql` files to `database/recovery` (don't copy the mysql and phpmyadmin files)
-    - Store your mysql password with
-      `mysql_config_editor set --login-path=local --host=localhost --user=root --password`
+    - Copy the `.sql` files to `database/recovery`
     - Run the recovery script: `database/recovery.sh`
-
-## License
-
-- The source is licensed under the GNU GPLv2 license that can be found in the [LICENSE](LICENSE) file.
