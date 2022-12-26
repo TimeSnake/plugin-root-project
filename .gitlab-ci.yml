@@ -13,6 +13,8 @@ build:
     paths:
       - build
       - .gradle
+  tags:
+    - gradle
 
 include:
   - template: Code-Quality.gitlab-ci.yml
