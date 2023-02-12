@@ -33,9 +33,9 @@
 1. Change to the proxy server directory `network/servers/000_proxy`.
 2. Run `./start.sh tmux` (recommended) or `./start.sh`.
 
-### MySQL/MariaDB Database Server
+### MariaDB Database Server
 
-1. Setup a database mysql or mariadb server
+1. Setup a database mariadb server
 2. Import the datasets into the database with the recovery script.
     - Copy the `.sql` files to `database/recovery`
     - Run the recovery script: `database/recovery.sh`
