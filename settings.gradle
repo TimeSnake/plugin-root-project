@@ -1,4 +1,5 @@
 include('library-basic')
+include('library-chat')
 include('channel-api')
 include('channel-bukkit')
 include('channel-proxy')
