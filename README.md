@@ -1,6 +1,6 @@
 ## Installation
 
-You can find an installation guide in the [setup] file.
+You can find an installation guide in the [Setup.md] file.
 
 ## Code Style
 
@@ -11,6 +11,7 @@ https://google.github.io/styleguide/javaguide.html
 
 ## License
 
-- The source is licensed under the GNU GPLv2 license that can be found in the [LICENSE](LICENSE) file.
+- The source is licensed under the GNU GPLv2 license that can be found in the [LICENSE](LICENSE)
+  file.
 
-[Setup]: SETUP.md
+[Setup.md]: SETUP.md
