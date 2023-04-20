@@ -12,30 +12,52 @@
 
 1. Set up an ssh-key
 2. Run `git clone git@git.timsnake.de:timesnake/plugin-root-project.git`
-3. Change to `plugin-root-project/setup/`
-4. Run the `./init.sh` script
+3. Run the `./setup/init.sh` script
 
 ## Test-Server
 
-### Requirements
+### Docker Image
 
-- Java 17+
-- Mysql-Server (see below)
-- tmux
-- curl, sed (only for installation)
+Load the image from file. The file can be requested from @funzter or _admin@mail.timesnake.de_.
 
-### Installation
+```
+docker load --input timesnake.tar
+```
 
-*in progress, contact @funzter for help*
+Create docker container by running this command:
 
-### Running
+```
+docker run -d \
+   --name timesnake \
+   -e MYSQL_ROOT_PASSWORD=<password> \
+   -v "<local_plugin_folder>:/timesnake/plugins" \
+   -p 25565:25565 \
+   timesnake:latest
+```
 
-1. Change to the proxy server directory `network/servers/000_proxy`.
-2. Run `./start.sh tmux` (recommended) or `./start.sh`.
+**Hint:** Replace `<password>` with a database password and `<local_plugin_folder>` with your
+local plugin folder.
 
-### MariaDB Database Server
+Log in into the container:
 
-1. Setup a database mariadb server
-2. Import the datasets into the database with the recovery script.
-    - Copy the `.sql` files to `database/recovery`
-    - Run the recovery script: `database/recovery.sh`
+```
+docker exec -it timesnake bash
+```
+
+### Initialize
+
+Run `./scripts/init.sh` to finish the server setup. During this you can optionally upload default
+database values (highly recommended).
+
+### Start
+
+Run `start-server` or `/timesnake/servers/000_proxy/tmux-start.sh`.
+Later you can log in into the tmux session with `login-server`.
+
+### Structure
+
+- `config/` contains all global config files
+- `logs/` contains log files from all servers
+- `scripts/` contains all scripts as for startup or database recovery
+- `servers/` contains all running servers
+- `templates/` contains all server, world and player templates
