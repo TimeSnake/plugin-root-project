@@ -61,3 +61,6 @@ Later you can log in into the tmux session with `login-server`.
 - `scripts/` contains all scripts as for startup or database recovery
 - `servers/` contains all running servers
 - `templates/` contains all server, world and player templates
+
+**IMPORTANT: Do not edit any files within the servers and templates directory, this can result into
+strange behaviour.**
