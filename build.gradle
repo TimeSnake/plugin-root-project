@@ -37,3 +37,7 @@ subprojects {
   sourceCompatibility = 1.17
   targetCompatibility = 1.17
 }
+
+def getDeployUrl(int id) {
+  return git_url + 'api/v4/projects/' + id + '/packages/maven'
+}

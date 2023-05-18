@@ -48,3 +48,18 @@ include('game-survival')
 include('game-survivalgames')
 include('game-traitorinwolfed')
 include('game-trapduel')
+
+dependencyResolutionManagement {
+  repositories {
+    mavenCentral()
+
+    maven {
+      url git_url + 'api/v4/groups/' + git_group_id + '/-/packages/maven'
+      name "TimeSnake"
+      credentials {
+        username = git_username
+        password = git_access_token
+      }
+    }
+  }
+}
