@@ -13,6 +13,7 @@ library-packets
 library-network
 library-game
 library-shop
+library-plot
 basic-bukkit
 basic-build
 basic-proxy
@@ -38,6 +39,7 @@ game-graffiti
 game-microgames
 game-mobdefence
 game-push
+game-riseup
 game-story
 game-survival
 game-survivalgames
