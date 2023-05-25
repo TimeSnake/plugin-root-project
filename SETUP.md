@@ -21,7 +21,7 @@
 Load the image from file. The file can be requested from @funzter or _admin@mail.timesnake.de_.
 
 ```
-docker load --input timesnake.tar
+docker load --input timesnake-latest.tar
 ```
 
 Create docker container by running this command:
