@@ -6,7 +6,7 @@
 
 - Java 17+
 - Maven 2
-- Gradle
+- Gradle 8+
 
 ### Installation
 

@@ -6,6 +6,5 @@
 # - Maven 2
 # - Gradle
 
-./git_init.sh
-gradle :library-entities-generator runFinalJar
+./setup/git_init.sh
 gradle build

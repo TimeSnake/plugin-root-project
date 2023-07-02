@@ -5,7 +5,7 @@
 
 modules=()
 
-input="modules.txt"
+input="setup/modules.txt"
 
 while IFS= read -r line
 do
