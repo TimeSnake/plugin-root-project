@@ -1,42 +1,36 @@
+plugins {
+  id 'java-library'
+  id 'maven-publish'
+  id("io.papermc.paperweight.userdev") version "1.5.5" apply false
+  id("xyz.jpenilla.run-paper") version "2.1.0" apply false
+  id('com.github.johnrengelman.shadow') version '8.1.1' apply false
+}
+
 subprojects {
 
   apply plugin: 'java-base'
   apply plugin: 'java'
   apply plugin: 'maven-publish'
 
-  tasks.withType(JavaCompile) {
+  tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8'
   }
 
-  task sourceJar(type: Jar) {
-    classifier = 'sources'
-    from sourceSets.main.allJava
+  java {
+    withSourcesJar()
   }
 
-  task gitPush(type: Exec) {
+  tasks.register('gitPush', Exec) {
     description('Pushes to ' + project.git_url)
     commandLine('git', 'push', 'origin', 'main')
   }
 
-  task gitPull(type: Exec) {
+  tasks.register('gitPull', Exec) {
     description('Pushes to ' + project.git_url)
     commandLine('git', 'pull', 'origin', 'main')
   }
-
-  publishing {
-    publications {
-      mavenJava(MavenPublication) {
-        from components.java
-        artifact sourceJar {
-          classifier "sources"
-        }
-      }
-    }
-  }
-
-  sourceCompatibility = 1.17
-  targetCompatibility = 1.17
 }
+
 
 def getDeployUrl(int id) {
   return git_url + 'api/v4/projects/' + id + '/packages/maven'

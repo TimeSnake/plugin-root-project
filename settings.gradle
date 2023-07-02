@@ -1,41 +1,55 @@
-include('library-basic')
-include('library-chat')
-include('channel-api')
-include('channel-bukkit')
-include('channel-proxy')
-include('database-api')
-include('database-bukkit')
-include('database-proxy')
-include('library-extension')
-include('library-reflection')
-include('library-packets')
-include(':library-entities')
-project(':library-entities').projectDir = file('library-entities/library-entities')
-include(':library-entities-generator')
-project(':library-entities-generator').projectDir = file('library-entities/generator')
-include('library-network')
-include('library-game')
-include('library-shop')
-include('basic-bukkit')
-include('basic-build')
-include('basic-proxy')
-include('basic-game')
-include('library-waitinggame')
-include('library-plot')
-include('basic-lobby')
-include('basic-lounge')
-include('basic-loungebridge')
+// basic library modules
+include("library-chat")
+include("library-basic")
+include("library-extension")
+include("library-network")
+
+// paper library modules
+include("library-packets")
+include("library-entities")
+
+// channel modules
+include("channel-api")
+include("channel-bukkit")
+include("channel-proxy")
+
+// database modules
+include("database-api")
+include("database-bukkit")
+include("database-proxy")
+
+// main modules
+include("basic-bukkit")
+include("basic-proxy")
+
+include("library-game")
+include("library-waitinggame")
+include("library-plot")
+
+
+// basic paper modules
+include("basic-build")
+include("basic-game")
+include("basic-lobby")
+include("basic-lounge")
+include("basic-loungebridge")
+
+// paper extensions
 include('extension-anticheat')
 include('extension-bukkit')
 include('extension-decoration')
-include('extension-discord')
 include('extension-event')
-include('extension-proxy')
 include('extension-special')
 include('extension-support')
-include('extension-telegram')
 include('extension-warp')
+
+// proxy extensions
+include('extension-discord')
+include('extension-proxy')
+include('extension-telegram')
 include('extension-web')
+
+// paper games
 include('game-bowrun')
 include('game-endgame')
 include('game-graffiti')
@@ -43,11 +57,12 @@ include('game-microgames')
 include('game-mobdefence')
 include('game-push')
 include('game-riseup')
-include('game-story')
+// TODO include('game-story')
 include('game-survival')
 include('game-survivalgames')
 include('game-traitorinwolfed')
 include('game-trapduel')
+
 
 dependencyResolutionManagement {
   repositories {
