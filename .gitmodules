@@ -1,0 +1,141 @@
+[submodule "library-chat"]
+  path = library-chat
+  url = https://git.timesnake.de/timesnake/library-chat
+[submodule "library-basic"]
+  path = library-basic
+  url = https://git.timesnake.de/timesnake/library-basic
+[submodule "channel-api"]
+  path = channel-api
+  url = https://git.timesnake.de/timesnake/channel-api
+[submodule "channel-bukkit"]
+  path = channel-bukkit
+  url = https://git.timesnake.de/timesnake/channel-bukkit
+[submodule "channel-proxy"]
+  path = channel-proxy
+  url = https://git.timesnake.de/timesnake/channel-proxy
+[submodule "database-api"]
+  path = database-api
+  url = https://git.timesnake.de/timesnake/database-api
+[submodule "database-bukkit"]
+  path = database-bukkit
+  url = https://git.timesnake.de/timesnake/database-bukkit
+[submodule "database-proxy"]
+  path = database-proxy
+  url = https://git.timesnake.de/timesnake/database-proxy
+[submodule "library-extension"]
+  path = library-extension
+  url = https://git.timesnake.de/timesnake/library-extension
+[submodule "library-reflection"]
+  path = library-reflection
+  url = https://git.timesnake.de/timesnake/library-reflection
+[submodule "library-entities"]
+  path = library-entities
+  url = https://git.timesnake.de/timesnake/library-entities
+[submodule "library-packets"]
+  path = library-packets
+  url = https://git.timesnake.de/timesnake/library-packets
+[submodule "library-network"]
+  path = library-network
+  url = https://git.timesnake.de/timesnake/library-network
+[submodule "library-game"]
+  path = library-game
+  url = https://git.timesnake.de/timesnake/library-game
+[submodule "library-shop"]
+  path = library-shop
+  url = https://git.timesnake.de/timesnake/library-shop
+[submodule "library-plot"]
+  path = library-plot
+  url = https://git.timesnake.de/timesnake/library-plot
+[submodule "basic-bukkit"]
+  path = basic-bukkit
+  url = https://git.timesnake.de/timesnake/basic-bukkit
+[submodule "basic-build"]
+  path = basic-build
+  url = https://git.timesnake.de/timesnake/basic-build
+[submodule "basic-proxy"]
+  path = basic-proxy
+  url = https://git.timesnake.de/timesnake/basic-proxy
+[submodule "basic-game"]
+  path = basic-game
+  url = https://git.timesnake.de/timesnake/basic-game
+[submodule "library-waitinggame"]
+  path = library-waitinggame
+  url = https://git.timesnake.de/timesnake/library-waitinggame
+[submodule "basic-lobby"]
+  path = basic-lobby
+  url = https://git.timesnake.de/timesnake/basic-lobby
+[submodule "basic-lounge"]
+  path = basic-lounge
+  url = https://git.timesnake.de/timesnake/basic-lounge
+[submodule "basic-loungebridge"]
+  path = basic-loungebridge
+  url = https://git.timesnake.de/timesnake/basic-loungebridge
+[submodule "extension-anticheat"]
+  path = extension-anticheat
+  url = https://git.timesnake.de/timesnake/extension-anticheat
+[submodule "extension-bukkit"]
+  path = extension-bukkit
+  url = https://git.timesnake.de/timesnake/extension-bukkit
+[submodule "extension-decoration"]
+  path = extension-decoration
+  url = https://git.timesnake.de/timesnake/extension-decoration
+[submodule "extension-discord"]
+  path = extension-discord
+  url = https://git.timesnake.de/timesnake/extension-discord
+[submodule "extension-event"]
+  path = extension-event
+  url = https://git.timesnake.de/timesnake/extension-event
+[submodule "extension-proxy"]
+  path = extension-proxy
+  url = https://git.timesnake.de/timesnake/extension-proxy
+[submodule "extension-special"]
+  path = extension-special
+  url = https://git.timesnake.de/timesnake/extension-special
+[submodule "extension-support"]
+  path = extension-support
+  url = https://git.timesnake.de/timesnake/extension-support
+[submodule "extension-telegram"]
+  path = extension-telegram
+  url = https://git.timesnake.de/timesnake/extension-telegram
+[submodule "extension-warp"]
+  path = extension-warp
+  url = https://git.timesnake.de/timesnake/extension-warp
+[submodule "extension-web"]
+  path = extension-web
+  url = https://git.timesnake.de/timesnake/extension-web
+[submodule "game-bowrun"]
+  path = game-bowrun
+  url = https://git.timesnake.de/timesnake/game-bowrun
+[submodule "game-endgame"]
+  path = game-endgame
+  url = https://git.timesnake.de/timesnake/game-endgame
+[submodule "game-graffiti"]
+  path = game-graffiti
+  url = https://git.timesnake.de/timesnake/game-graffiti
+[submodule "game-microgames"]
+  path = game-microgames
+  url = https://git.timesnake.de/timesnake/game-microgames
+[submodule "game-mobdefence"]
+  path = game-mobdefence
+  url = https://git.timesnake.de/timesnake/game-mobdefence
+[submodule "game-push"]
+  path = game-push
+  url = https://git.timesnake.de/timesnake/game-push
+[submodule "game-riseup"]
+  path = game-riseup
+  url = https://git.timesnake.de/timesnake/game-riseup
+[submodule "game-story"]
+  path = game-story
+  url = https://git.timesnake.de/timesnake/game-story
+[submodule "game-survival"]
+  path = game-survival
+  url = https://git.timesnake.de/timesnake/game-survival
+[submodule "game-survivalgames"]
+  path = game-survivalgames
+  url = https://git.timesnake.de/timesnake/game-survivalgames
+[submodule "game-traitorinwolfed"]
+  path = game-traitorinwolfed
+  url = https://git.timesnake.de/timesnake/game-traitorinwolfed
+[submodule "game-trapduel"]
+  path = game-trapduel
+  url = https://git.timesnake.de/timesnake/game-trapduel
