@@ -1,141 +1,141 @@
 [submodule "library-chat"]
-  path = library-chat
-  url = https://git.timesnake.de/timesnake/library-chat
+	path = library-chat
+	url = git@git.timesnake.de:timesnake/library-chat.git
 [submodule "library-basic"]
-  path = library-basic
-  url = https://git.timesnake.de/timesnake/library-basic
+	path = library-basic
+	url = git@git.timesnake.de:timesnake/library-basic.git
 [submodule "channel-api"]
-  path = channel-api
-  url = https://git.timesnake.de/timesnake/channel-api
+	path = channel-api
+	url = git@git.timesnake.de:timesnake/channel-api.git
 [submodule "channel-bukkit"]
-  path = channel-bukkit
-  url = https://git.timesnake.de/timesnake/channel-bukkit
+	path = channel-bukkit
+	url = git@git.timesnake.de:timesnake/channel-bukkit.git
 [submodule "channel-proxy"]
-  path = channel-proxy
-  url = https://git.timesnake.de/timesnake/channel-proxy
+	path = channel-proxy
+	url = git@git.timesnake.de:timesnake/channel-proxy.git
 [submodule "database-api"]
-  path = database-api
-  url = https://git.timesnake.de/timesnake/database-api
+	path = database-api
+	url = git@git.timesnake.de:timesnake/database-api.git
 [submodule "database-bukkit"]
-  path = database-bukkit
-  url = https://git.timesnake.de/timesnake/database-bukkit
+	path = database-bukkit
+	url = git@git.timesnake.de:timesnake/database-bukkit.git
 [submodule "database-proxy"]
-  path = database-proxy
-  url = https://git.timesnake.de/timesnake/database-proxy
+	path = database-proxy
+	url = git@git.timesnake.de:timesnake/database-proxy.git
 [submodule "library-extension"]
-  path = library-extension
-  url = https://git.timesnake.de/timesnake/library-extension
+	path = library-extension
+	url = git@git.timesnake.de:timesnake/library-extension.git
 [submodule "library-reflection"]
-  path = library-reflection
-  url = https://git.timesnake.de/timesnake/library-reflection
+	path = library-reflection
+	url = git@git.timesnake.de:timesnake/library-reflection.git
 [submodule "library-entities"]
-  path = library-entities
-  url = https://git.timesnake.de/timesnake/library-entities
+	path = library-entities
+	url = git@git.timesnake.de:timesnake/library-entities.git
 [submodule "library-packets"]
-  path = library-packets
-  url = https://git.timesnake.de/timesnake/library-packets
+	path = library-packets
+	url = git@git.timesnake.de:timesnake/library-packets.git
 [submodule "library-network"]
-  path = library-network
-  url = https://git.timesnake.de/timesnake/library-network
+	path = library-network
+	url = git@git.timesnake.de:timesnake/library-network.git
 [submodule "library-game"]
-  path = library-game
-  url = https://git.timesnake.de/timesnake/library-game
+	path = library-game
+	url = git@git.timesnake.de:timesnake/library-game.git
 [submodule "library-shop"]
-  path = library-shop
-  url = https://git.timesnake.de/timesnake/library-shop
+	path = library-shop
+	url = git@git.timesnake.de:timesnake/library-shop.git
 [submodule "library-plot"]
-  path = library-plot
-  url = https://git.timesnake.de/timesnake/library-plot
+	path = library-plot
+	url = git@git.timesnake.de:timesnake/library-plot.git
 [submodule "basic-bukkit"]
-  path = basic-bukkit
-  url = https://git.timesnake.de/timesnake/basic-bukkit
+	path = basic-bukkit
+	url = git@git.timesnake.de:timesnake/basic-bukkit.git
 [submodule "basic-build"]
-  path = basic-build
-  url = https://git.timesnake.de/timesnake/basic-build
+	path = basic-build
+	url = git@git.timesnake.de:timesnake/basic-build.git
 [submodule "basic-proxy"]
-  path = basic-proxy
-  url = https://git.timesnake.de/timesnake/basic-proxy
+	path = basic-proxy
+	url = git@git.timesnake.de:timesnake/basic-proxy.git
 [submodule "basic-game"]
-  path = basic-game
-  url = https://git.timesnake.de/timesnake/basic-game
+	path = basic-game
+	url = git@git.timesnake.de:timesnake/basic-game.git
 [submodule "library-waitinggame"]
-  path = library-waitinggame
-  url = https://git.timesnake.de/timesnake/library-waitinggame
+	path = library-waitinggame
+	url = git@git.timesnake.de:timesnake/library-waitinggame.git
 [submodule "basic-lobby"]
-  path = basic-lobby
-  url = https://git.timesnake.de/timesnake/basic-lobby
+	path = basic-lobby
+	url = git@git.timesnake.de:timesnake/basic-lobby.git
 [submodule "basic-lounge"]
-  path = basic-lounge
-  url = https://git.timesnake.de/timesnake/basic-lounge
+	path = basic-lounge
+	url = git@git.timesnake.de:timesnake/basic-lounge.git
 [submodule "basic-loungebridge"]
-  path = basic-loungebridge
-  url = https://git.timesnake.de/timesnake/basic-loungebridge
+	path = basic-loungebridge
+	url = git@git.timesnake.de:timesnake/basic-loungebridge.git
 [submodule "extension-anticheat"]
-  path = extension-anticheat
-  url = https://git.timesnake.de/timesnake/extension-anticheat
+	path = extension-anticheat
+	url = git@git.timesnake.de:timesnake/extension-anticheat.git
 [submodule "extension-bukkit"]
-  path = extension-bukkit
-  url = https://git.timesnake.de/timesnake/extension-bukkit
+	path = extension-bukkit
+	url = git@git.timesnake.de:timesnake/extension-bukkit.git
 [submodule "extension-decoration"]
-  path = extension-decoration
-  url = https://git.timesnake.de/timesnake/extension-decoration
+	path = extension-decoration
+	url = git@git.timesnake.de:timesnake/extension-decoration.git
 [submodule "extension-discord"]
-  path = extension-discord
-  url = https://git.timesnake.de/timesnake/extension-discord
+	path = extension-discord
+	url = git@git.timesnake.de:timesnake/extension-discord.git
 [submodule "extension-event"]
-  path = extension-event
-  url = https://git.timesnake.de/timesnake/extension-event
+	path = extension-event
+	url = git@git.timesnake.de:timesnake/extension-event.git
 [submodule "extension-proxy"]
-  path = extension-proxy
-  url = https://git.timesnake.de/timesnake/extension-proxy
+	path = extension-proxy
+	url = git@git.timesnake.de:timesnake/extension-proxy.git
 [submodule "extension-special"]
-  path = extension-special
-  url = https://git.timesnake.de/timesnake/extension-special
+	path = extension-special
+	url = git@git.timesnake.de:timesnake/extension-special.git
 [submodule "extension-support"]
-  path = extension-support
-  url = https://git.timesnake.de/timesnake/extension-support
+	path = extension-support
+	url = git@git.timesnake.de:timesnake/extension-support.git
 [submodule "extension-telegram"]
-  path = extension-telegram
-  url = https://git.timesnake.de/timesnake/extension-telegram
+	path = extension-telegram
+	url = git@git.timesnake.de:timesnake/extension-telegram.git
 [submodule "extension-warp"]
-  path = extension-warp
-  url = https://git.timesnake.de/timesnake/extension-warp
+	path = extension-warp
+	url = git@git.timesnake.de:timesnake/extension-warp.git
 [submodule "extension-web"]
-  path = extension-web
-  url = https://git.timesnake.de/timesnake/extension-web
+	path = extension-web
+	url = git@git.timesnake.de:timesnake/extension-web.git
 [submodule "game-bowrun"]
-  path = game-bowrun
-  url = https://git.timesnake.de/timesnake/game-bowrun
+	path = game-bowrun
+	url = git@git.timesnake.de:timesnake/game-bowrun.git
 [submodule "game-endgame"]
-  path = game-endgame
-  url = https://git.timesnake.de/timesnake/game-endgame
+	path = game-endgame
+	url = git@git.timesnake.de:timesnake/game-endgame.git
 [submodule "game-graffiti"]
-  path = game-graffiti
-  url = https://git.timesnake.de/timesnake/game-graffiti
+	path = game-graffiti
+	url = git@git.timesnake.de:timesnake/game-graffiti.git
 [submodule "game-microgames"]
-  path = game-microgames
-  url = https://git.timesnake.de/timesnake/game-microgames
+	path = game-microgames
+	url = git@git.timesnake.de:timesnake/game-microgames.git
 [submodule "game-mobdefence"]
-  path = game-mobdefence
-  url = https://git.timesnake.de/timesnake/game-mobdefence
+	path = game-mobdefence
+	url = git@git.timesnake.de:timesnake/game-mobdefence.git
 [submodule "game-push"]
-  path = game-push
-  url = https://git.timesnake.de/timesnake/game-push
+	path = game-push
+	url = git@git.timesnake.de:timesnake/game-push.git
 [submodule "game-riseup"]
-  path = game-riseup
-  url = https://git.timesnake.de/timesnake/game-riseup
+	path = game-riseup
+	url = git@git.timesnake.de:timesnake/game-riseup.git
 [submodule "game-story"]
-  path = game-story
-  url = https://git.timesnake.de/timesnake/game-story
+	path = game-story
+	url = git@git.timesnake.de:timesnake/game-story.git
 [submodule "game-survival"]
-  path = game-survival
-  url = https://git.timesnake.de/timesnake/game-survival
+	path = game-survival
+	url = git@git.timesnake.de:timesnake/game-survival.git
 [submodule "game-survivalgames"]
-  path = game-survivalgames
-  url = https://git.timesnake.de/timesnake/game-survivalgames
+	path = game-survivalgames
+	url = git@git.timesnake.de:timesnake/game-survivalgames.git
 [submodule "game-traitorinwolfed"]
-  path = game-traitorinwolfed
-  url = https://git.timesnake.de/timesnake/game-traitorinwolfed
+	path = game-traitorinwolfed
+	url = git@git.timesnake.de:timesnake/game-traitorinwolfed.git
 [submodule "game-trapduel"]
-  path = game-trapduel
-  url = https://git.timesnake.de/timesnake/game-trapduel
+	path = game-trapduel
+	url = git@git.timesnake.de:timesnake/game-trapduel.git
