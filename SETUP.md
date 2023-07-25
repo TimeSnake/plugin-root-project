@@ -10,9 +10,9 @@
 
 ### Installation
 
-1. Set up an ssh-key
-2. Run `git clone git@git.timsnake.de:timesnake/plugin-root-project.git`
-3. Run the `./setup/init.sh` script
+1. Set up an ssh-key.
+2. Run `git clone --recurse-submodules git@git.timsnake.de:timesnake/plugin-root-project.git`.
+3. Run 'gradle build' in the project directory.
 
 ## Test-Server
 
