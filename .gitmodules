@@ -25,9 +25,6 @@
 [submodule "library-extension"]
 	path = library-extension
 	url = git@git.timesnake.de:timesnake/library-extension.git
-[submodule "library-reflection"]
-	path = library-reflection
-	url = git@git.timesnake.de:timesnake/library-reflection.git
 [submodule "library-entities"]
 	path = library-entities
 	url = git@git.timesnake.de:timesnake/library-entities.git
