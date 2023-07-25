@@ -1,6 +1,12 @@
+## Minecraft-Server-Network
+
+This project consists of multiple plugins which run a minecraft server network including several games.
+
+
 ## Installation
 
-You can find an installation guide in the [Setup.md] file.
+This server network creates files and uses a database. To prevent errors, we provide a ready-to-run docker container.
+The regarding image can be requested from @funzter or admin@mail.timesnake.de.
 
 ## Code Style
 
