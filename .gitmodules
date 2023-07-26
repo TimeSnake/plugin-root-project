@@ -136,3 +136,6 @@
 [submodule "game-trapduel"]
 	path = game-trapduel
 	url = git@git.timesnake.de:timesnake/minecraft/game-trapduel.git
+[submodule "library-reflection"]
+	path = library-reflection
+	url = git@git.timesnake.de:timesnake/minecraft/library-reflection.git
