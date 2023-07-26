@@ -1,138 +1,138 @@
 [submodule "library-chat"]
 	path = library-chat
-	url = git@git.timesnake.de:timesnake/library-chat.git
+	url = git@git.timesnake.de:timesnake/minecraft/library-chat.git
 [submodule "library-basic"]
 	path = library-basic
-	url = git@git.timesnake.de:timesnake/library-basic.git
+	url = git@git.timesnake.de:timesnake/minecraft/library-basic.git
 [submodule "channel-api"]
 	path = channel-api
-	url = git@git.timesnake.de:timesnake/channel-api.git
+	url = git@git.timesnake.de:timesnake/minecraft/channel-api.git
 [submodule "channel-bukkit"]
 	path = channel-bukkit
-	url = git@git.timesnake.de:timesnake/channel-bukkit.git
+	url = git@git.timesnake.de:timesnake/minecraft/channel-bukkit.git
 [submodule "channel-proxy"]
 	path = channel-proxy
-	url = git@git.timesnake.de:timesnake/channel-proxy.git
+	url = git@git.timesnake.de:timesnake/minecraft/channel-proxy.git
 [submodule "database-api"]
 	path = database-api
-	url = git@git.timesnake.de:timesnake/database-api.git
+	url = git@git.timesnake.de:timesnake/minecraft/database-api.git
 [submodule "database-bukkit"]
 	path = database-bukkit
-	url = git@git.timesnake.de:timesnake/database-bukkit.git
+	url = git@git.timesnake.de:timesnake/minecraft/database-bukkit.git
 [submodule "database-proxy"]
 	path = database-proxy
-	url = git@git.timesnake.de:timesnake/database-proxy.git
+	url = git@git.timesnake.de:timesnake/minecraft/database-proxy.git
 [submodule "library-extension"]
 	path = library-extension
-	url = git@git.timesnake.de:timesnake/library-extension.git
+	url = git@git.timesnake.de:timesnake/minecraft/library-extension.git
 [submodule "library-entities"]
 	path = library-entities
-	url = git@git.timesnake.de:timesnake/library-entities.git
+	url = git@git.timesnake.de:timesnake/minecraft/library-entities.git
 [submodule "library-packets"]
 	path = library-packets
-	url = git@git.timesnake.de:timesnake/library-packets.git
+	url = git@git.timesnake.de:timesnake/minecraft/library-packets.git
 [submodule "library-network"]
 	path = library-network
-	url = git@git.timesnake.de:timesnake/library-network.git
+	url = git@git.timesnake.de:timesnake/minecraft/library-network.git
 [submodule "library-game"]
 	path = library-game
-	url = git@git.timesnake.de:timesnake/library-game.git
+	url = git@git.timesnake.de:timesnake/minecraft/library-game.git
 [submodule "library-shop"]
 	path = library-shop
-	url = git@git.timesnake.de:timesnake/library-shop.git
+	url = git@git.timesnake.de:timesnake/minecraft/library-shop.git
 [submodule "library-plot"]
 	path = library-plot
-	url = git@git.timesnake.de:timesnake/library-plot.git
+	url = git@git.timesnake.de:timesnake/minecraft/library-plot.git
 [submodule "basic-bukkit"]
 	path = basic-bukkit
-	url = git@git.timesnake.de:timesnake/basic-bukkit.git
+	url = git@git.timesnake.de:timesnake/minecraft/basic-bukkit.git
 [submodule "basic-build"]
 	path = basic-build
-	url = git@git.timesnake.de:timesnake/basic-build.git
+	url = git@git.timesnake.de:timesnake/minecraft/basic-build.git
 [submodule "basic-proxy"]
 	path = basic-proxy
-	url = git@git.timesnake.de:timesnake/basic-proxy.git
+	url = git@git.timesnake.de:timesnake/minecraft/basic-proxy.git
 [submodule "basic-game"]
 	path = basic-game
-	url = git@git.timesnake.de:timesnake/basic-game.git
+	url = git@git.timesnake.de:timesnake/minecraft/basic-game.git
 [submodule "library-waitinggame"]
 	path = library-waitinggame
-	url = git@git.timesnake.de:timesnake/library-waitinggame.git
+	url = git@git.timesnake.de:timesnake/minecraft/library-waitinggame.git
 [submodule "basic-lobby"]
 	path = basic-lobby
-	url = git@git.timesnake.de:timesnake/basic-lobby.git
+	url = git@git.timesnake.de:timesnake/minecraft/basic-lobby.git
 [submodule "basic-lounge"]
 	path = basic-lounge
-	url = git@git.timesnake.de:timesnake/basic-lounge.git
+	url = git@git.timesnake.de:timesnake/minecraft/basic-lounge.git
 [submodule "basic-loungebridge"]
 	path = basic-loungebridge
-	url = git@git.timesnake.de:timesnake/basic-loungebridge.git
+	url = git@git.timesnake.de:timesnake/minecraft/basic-loungebridge.git
 [submodule "extension-anticheat"]
 	path = extension-anticheat
-	url = git@git.timesnake.de:timesnake/extension-anticheat.git
+	url = git@git.timesnake.de:timesnake/minecraft/extension-anticheat.git
 [submodule "extension-bukkit"]
 	path = extension-bukkit
-	url = git@git.timesnake.de:timesnake/extension-bukkit.git
+	url = git@git.timesnake.de:timesnake/minecraft/extension-bukkit.git
 [submodule "extension-decoration"]
 	path = extension-decoration
-	url = git@git.timesnake.de:timesnake/extension-decoration.git
+	url = git@git.timesnake.de:timesnake/minecraft/extension-decoration.git
 [submodule "extension-discord"]
 	path = extension-discord
-	url = git@git.timesnake.de:timesnake/extension-discord.git
+	url = git@git.timesnake.de:timesnake/minecraft/extension-discord.git
 [submodule "extension-event"]
 	path = extension-event
-	url = git@git.timesnake.de:timesnake/extension-event.git
+	url = git@git.timesnake.de:timesnake/minecraft/extension-event.git
 [submodule "extension-proxy"]
 	path = extension-proxy
-	url = git@git.timesnake.de:timesnake/extension-proxy.git
+	url = git@git.timesnake.de:timesnake/minecraft/extension-proxy.git
 [submodule "extension-special"]
 	path = extension-special
-	url = git@git.timesnake.de:timesnake/extension-special.git
+	url = git@git.timesnake.de:timesnake/minecraft/extension-special.git
 [submodule "extension-support"]
 	path = extension-support
-	url = git@git.timesnake.de:timesnake/extension-support.git
+	url = git@git.timesnake.de:timesnake/minecraft/extension-support.git
 [submodule "extension-telegram"]
 	path = extension-telegram
-	url = git@git.timesnake.de:timesnake/extension-telegram.git
+	url = git@git.timesnake.de:timesnake/minecraft/extension-telegram.git
 [submodule "extension-warp"]
 	path = extension-warp
-	url = git@git.timesnake.de:timesnake/extension-warp.git
+	url = git@git.timesnake.de:timesnake/minecraft/extension-warp.git
 [submodule "extension-web"]
 	path = extension-web
-	url = git@git.timesnake.de:timesnake/extension-web.git
+	url = git@git.timesnake.de:timesnake/minecraft/extension-web.git
 [submodule "game-bowrun"]
 	path = game-bowrun
-	url = git@git.timesnake.de:timesnake/game-bowrun.git
+	url = git@git.timesnake.de:timesnake/minecraft/game-bowrun.git
 [submodule "game-endgame"]
 	path = game-endgame
-	url = git@git.timesnake.de:timesnake/game-endgame.git
+	url = git@git.timesnake.de:timesnake/minecraft/game-endgame.git
 [submodule "game-graffiti"]
 	path = game-graffiti
-	url = git@git.timesnake.de:timesnake/game-graffiti.git
+	url = git@git.timesnake.de:timesnake/minecraft/game-graffiti.git
 [submodule "game-microgames"]
 	path = game-microgames
-	url = git@git.timesnake.de:timesnake/game-microgames.git
+	url = git@git.timesnake.de:timesnake/minecraft/game-microgames.git
 [submodule "game-mobdefence"]
 	path = game-mobdefence
-	url = git@git.timesnake.de:timesnake/game-mobdefence.git
+	url = git@git.timesnake.de:timesnake/minecraft/game-mobdefence.git
 [submodule "game-push"]
 	path = game-push
-	url = git@git.timesnake.de:timesnake/game-push.git
+	url = git@git.timesnake.de:timesnake/minecraft/game-push.git
 [submodule "game-riseup"]
 	path = game-riseup
-	url = git@git.timesnake.de:timesnake/game-riseup.git
+	url = git@git.timesnake.de:timesnake/minecraft/game-riseup.git
 [submodule "game-story"]
 	path = game-story
-	url = git@git.timesnake.de:timesnake/game-story.git
+	url = git@git.timesnake.de:timesnake/minecraft/game-story.git
 [submodule "game-survival"]
 	path = game-survival
-	url = git@git.timesnake.de:timesnake/game-survival.git
+	url = git@git.timesnake.de:timesnake/minecraft/game-survival.git
 [submodule "game-survivalgames"]
 	path = game-survivalgames
-	url = git@git.timesnake.de:timesnake/game-survivalgames.git
+	url = git@git.timesnake.de:timesnake/minecraft/game-survivalgames.git
 [submodule "game-traitorinwolfed"]
 	path = game-traitorinwolfed
-	url = git@git.timesnake.de:timesnake/game-traitorinwolfed.git
+	url = git@git.timesnake.de:timesnake/minecraft/game-traitorinwolfed.git
 [submodule "game-trapduel"]
 	path = game-trapduel
-	url = git@git.timesnake.de:timesnake/game-trapduel.git
+	url = git@git.timesnake.de:timesnake/minecraft/game-trapduel.git
