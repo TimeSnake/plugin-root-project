@@ -12,13 +12,23 @@
 
 1. Set up an ssh-key.
 2. Run `git clone --recurse-submodules git@git.timsnake.de:timesnake/minecraft/plugin-project.git`.
-3. Run `gradle build` in the project directory.
+3. Set up gradle variables in `~/.gradle/gradle.properties`:
+    ```
+   timesnakeUser=<user>
+   timesnakePassword=<access_token>
+   timesnakeDeployUser=<deploy_token_name>
+   timesnakeDeployKey=<deploy_token>
+
+   timesnakePluginDir=<plugins_dir>
+   ```
+4. Run `gradle build` in the project directory.
 
 ## Test-Server
 
 ### Docker Image
 
 Load the image from file. The file can be requested from @funzter or _admin@mail.timesnake.de_.
+To test website and server, use the `timsnake:web-latest` image.
 
 ```
 docker load --input timesnake-latest.tar
