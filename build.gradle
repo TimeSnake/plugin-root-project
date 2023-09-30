@@ -21,17 +21,17 @@ subprojects {
   }
 
   tasks.register('gitPush', Exec) {
-    description('Pushes to ' + project.git_url)
+    description("Pushes to https://git.timesnake.de/")
     commandLine('git', 'push', 'origin', 'main')
   }
 
   tasks.register('gitPull', Exec) {
-    description('Pushes to ' + project.git_url)
+    description("Pushes to https://git.timesnake.de/")
     commandLine('git', 'pull', 'origin', 'main')
   }
 }
 
 
 def getDeployUrl(int id) {
-  return git_url + 'api/v4/projects/' + id + '/packages/maven'
+  return "https://git.timesnake.de/api/v4/projects/" + id + "/packages/maven"
 }

@@ -56,6 +56,7 @@ include('game-endgame')
 include('game-graffiti')
 include('game-microgames')
 include('game-mobdefence')
+include('game-mobpush')
 include('game-push')
 include('game-riseup')
 include('game-story')
@@ -70,11 +71,11 @@ dependencyResolutionManagement {
     mavenCentral()
 
     maven {
-      url git_url + 'api/v4/groups/' + git_group_id + '/-/packages/maven'
+      url "https://git.timesnake.de/api/v4/groups/7/-/packages/maven"
       name "TimeSnake"
       credentials {
-        username = git_username
-        password = git_access_token
+        username = timesnakeUser
+        password = timesnakePassword
       }
     }
   }
