@@ -23,20 +23,23 @@
    ```
 4. Run `gradle build` in the project directory.
 
+---
+
 ## Test-Server
+
+To test website and server, look at the guide of the [web project].
 
 ### Docker Image
 
 Load the image from file. The file can be requested from @funzter or _admin@mail.timesnake.de_.
-To test website and server, use the `timsnake:web-latest` image.
 
-```
+```bash
 docker load --input timesnake-latest.tar
 ```
 
 Create docker container by running this command:
 
-```
+```bash
 docker run -d \
    --name timesnake \
    -e MYSQL_ROOT_PASSWORD=<password> \
@@ -74,3 +77,5 @@ Later you can log in into the tmux session with `login-server`.
 
 **IMPORTANT: Do not edit any files within the servers and templates directory, this can result into
 strange behaviour.**
+
+[web project]: https://git.timesnake.de/timesnake/vaadin
