@@ -30,8 +30,3 @@ subprojects {
     commandLine('git', 'pull', 'origin', 'main')
   }
 }
-
-
-def getDeployUrl(int id) {
-  return "https://git.timesnake.de/api/v4/projects/" + id + "/packages/maven"
-}
