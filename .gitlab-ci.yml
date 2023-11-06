@@ -6,6 +6,13 @@ variables:
 before_script:
   - GRADLE_USER_HOME="$(pwd)/.gradle"
   - export GRADLE_USER_HOME
+  - mkdir -p $GRADLE_USER_HOME
+  - touch $GRADLE_USER_HOME/gradle.properties
+  - echo "timesnakeUser=gitlab-ci-token" >> $GRADLE_USER_HOME/gradle.properties
+  - echo "timesnakePassword=$CI_JOB_TOKEN" >> $GRADLE_USER_HOME/gradle.properties
+  - echo "timesnakeWebDir=${pwd}/build/libs" >> $GRADLE_USER_HOME/gradle.properties
+  - echo "timesnakeDeployUser=$CI_DEPLOY_USER" >> $GRADLE_USER_HOME/gradle.properties
+  - echo "timesnakeDeployKey=$CI_DEPLOY_PASSWORD" >> $GRADLE_USER_HOME/gradle.properties
 
 build:
   stage: build
