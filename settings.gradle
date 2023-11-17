@@ -52,6 +52,7 @@ include('extension-web')
 
 // paper games
 include('game-bowrun')
+include('game-bridgebuilders')
 include('game-endgame')
 include('game-graffiti')
 include('game-microgames')
