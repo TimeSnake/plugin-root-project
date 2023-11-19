@@ -19,14 +19,4 @@ subprojects {
   java {
     withSourcesJar()
   }
-
-  tasks.register('gitPush', Exec) {
-    description("Pushes to https://git.timesnake.de/")
-    commandLine('git', 'push', 'origin', 'main')
-  }
-
-  tasks.register('gitPull', Exec) {
-    description("Pushes to https://git.timesnake.de/")
-    commandLine('git', 'pull', 'origin', 'main')
-  }
 }
