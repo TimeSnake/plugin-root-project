@@ -100,9 +100,15 @@
 [submodule "extension-web"]
 	path = extension-web
 	url = git@git.timesnake.de:timesnake/minecraft/extension-web.git
+[submodule "game-bedwars"]
+	path = game-bedwars
+	url = git@git.timesnake.de:timesnake/minecraft/game-bedwars
 [submodule "game-bowrun"]
 	path = game-bowrun
 	url = git@git.timesnake.de:timesnake/minecraft/game-bowrun.git
+[submodule "game-bridgebuilders"]
+	path = game-bridgebuilders
+	url = git@git.timesnake.de:timesnake/minecraft/game-bridgebuilders
 [submodule "game-endgame"]
 	path = game-endgame
 	url = git@git.timesnake.de:timesnake/minecraft/game-endgame.git

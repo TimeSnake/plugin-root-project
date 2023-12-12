@@ -51,6 +51,7 @@ include('extension-telegram')
 include('extension-web')
 
 // paper games
+include('game-bedwars')
 include('game-bowrun')
 include('game-bridgebuilders')
 include('game-endgame')
