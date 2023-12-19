@@ -10,8 +10,6 @@ before_script:
   - touch $GRADLE_USER_HOME/gradle.properties
   - echo "timesnakeUser=gitlab-ci-token" >> $GRADLE_USER_HOME/gradle.properties
   - echo "timesnakePassword=$CI_JOB_TOKEN" >> $GRADLE_USER_HOME/gradle.properties
-  - echo "timesnakeDeployUser=$CI_DEPLOY_USER" >> $GRADLE_USER_HOME/gradle.properties
-  - echo "timesnakeDeployKey=$CI_DEPLOY_PASSWORD" >> $GRADLE_USER_HOME/gradle.properties
 
 build:
   stage: build
@@ -24,11 +22,3 @@ build:
       - .gradle
   tags:
     - gradle
-
-#include:
-#  - template: Code-Quality.gitlab-ci.yml
-
-#code_quality:
-#  services:
-#  tags:
-#    - cq-sans-dind
