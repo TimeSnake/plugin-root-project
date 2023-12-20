@@ -26,6 +26,7 @@ include("library-game")
 include("library-waitinggame")
 include("library-plot")
 include("library-shop")
+include("library-pets")
 
 
 // basic paper modules
@@ -66,19 +67,3 @@ include('game-survival')
 include('game-survivalgames')
 include('game-traitorinwolfed')
 include('game-trapduel')
-
-
-dependencyResolutionManagement {
-  repositories {
-    mavenCentral()
-
-    maven {
-      url "https://git.timesnake.de/api/v4/groups/7/-/packages/maven"
-      name "TimeSnake"
-      credentials {
-        username = timesnakeUser
-        password = timesnakePassword
-      }
-    }
-  }
-}
