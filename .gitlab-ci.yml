@@ -8,6 +8,8 @@ before_script:
   - export GRADLE_USER_HOME
   - mkdir -p $GRADLE_USER_HOME
   - touch $GRADLE_USER_HOME/gradle.properties
+  - mkdir -p ~/plugins
+  - echo "timesnakePluginDir=~/plugins" >> $GRADLE_USER_HOME/gradle.properties
   - echo "timesnakeUser=gitlab-ci-token" >> $GRADLE_USER_HOME/gradle.properties
   - echo "timesnakePassword=$CI_JOB_TOKEN" >> $GRADLE_USER_HOME/gradle.properties
 
