@@ -22,9 +22,9 @@
 [submodule "database-proxy"]
 	path = database-proxy
 	url = git@git.timesnake.de:timesnake/minecraft/database-proxy.git
-[submodule "library-extension"]
-	path = library-extension
-	url = git@git.timesnake.de:timesnake/minecraft/library-extension.git
+[submodule "library-permissions"]
+	path = library-permissions
+	url = git@git.timesnake.de:timesnake/minecraft/library-permissions.git
 [submodule "library-entities"]
 	path = library-entities
 	url = git@git.timesnake.de:timesnake/minecraft/library-entities.git
@@ -58,6 +58,9 @@
 [submodule "library-waitinggame"]
 	path = library-waitinggame
 	url = git@git.timesnake.de:timesnake/minecraft/library-waitinggame.git
+[submodule "library-pets"]
+	path = library-pets
+	url = git@git.timesnake.de:timesnake/minecraft/library-pets.git
 [submodule "basic-lobby"]
 	path = basic-lobby
 	url = git@git.timesnake.de:timesnake/minecraft/basic-lobby.git
@@ -142,3 +145,6 @@
 [submodule "game-trapduel"]
 	path = game-trapduel
 	url = git@git.timesnake.de:timesnake/minecraft/game-trapduel.git
+[submodule "library-commands"]
+	path = library-commands
+	url = git@git.timesnake.de:timesnake/minecraft/library-commands.git

@@ -21,7 +21,7 @@ https://google.github.io/styleguide/javaguide.html
 
 ## License
 
-- The source is licensed under the GNU GPLv2 license that can be found in the [LICENSE](LICENSE)
+The source is licensed under the GNU GPLv2 license that can be found in the [LICENSE](LICENSE)
   file.
 
 [Setup.md]: SETUP.md

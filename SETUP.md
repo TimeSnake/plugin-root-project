@@ -16,8 +16,6 @@
     ```
    timesnakeUser=<user>
    timesnakePassword=<access_token>
-   timesnakeDeployUser=<deploy_token_name>
-   timesnakeDeployKey=<deploy_token>
 
    timesnakePluginDir=<plugins_dir>
    ```

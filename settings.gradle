@@ -1,7 +1,8 @@
 // basic library modules
 include("library-chat")
 include("library-basic")
-include("library-extension")
+include("library-commands")
+include("library-permissions")
 include("library-network")
 
 // paper library modules
@@ -27,7 +28,6 @@ include("library-waitinggame")
 include("library-plot")
 include("library-shop")
 include("library-pets")
-
 
 // basic paper modules
 include("basic-build")
@@ -67,3 +67,6 @@ include('game-survival')
 include('game-survivalgames')
 include('game-traitorinwolfed')
 include('game-trapduel')
+include 'library-commands'
+include 'library-permissions'
+
