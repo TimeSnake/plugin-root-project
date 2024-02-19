@@ -41,7 +41,7 @@ Create docker container by running this command:
 docker run -d \
    --name timesnake \
    -e MYSQL_ROOT_PASSWORD=<password> \
-   -v "<local_plugin_folder>:/timesnake/plugins" \
+   -v "<local_plugin_folder>:/timesnake/custom-plugins" \
    -p 25565:25565 \
    timesnake:latest
 ```
@@ -59,6 +59,8 @@ docker exec -it timesnake bash
 
 Run `./scripts/init.sh` to finish the server setup. During this you can optionally upload default
 database values (highly recommended).
+
+GITLAB_PRIVATE_TOKEN=glpat-XEQw7--qyjtsagBqGWjh
 
 ### Start
 
