@@ -60,8 +60,6 @@ docker exec -it timesnake bash
 Run `./scripts/init.sh` to finish the server setup. During this you can optionally upload default
 database values (highly recommended).
 
-GITLAB_PRIVATE_TOKEN=glpat-XEQw7--qyjtsagBqGWjh
-
 ### Start
 
 Run `start-server` or `/timesnake/servers/000_proxy/tmux-start.sh`.
