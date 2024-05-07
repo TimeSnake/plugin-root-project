@@ -42,7 +42,6 @@ include('extension-bukkit')
 include('extension-decoration')
 include('extension-event')
 include('extension-special')
-include('extension-support')
 include('extension-warp')
 
 // proxy extensions
