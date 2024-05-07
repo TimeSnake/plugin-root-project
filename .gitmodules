@@ -91,9 +91,6 @@
 [submodule "extension-special"]
 	path = extension-special
 	url = git@git.timesnake.de:timesnake/minecraft/extension-special.git
-[submodule "extension-support"]
-	path = extension-support
-	url = git@git.timesnake.de:timesnake/minecraft/extension-support.git
 [submodule "extension-telegram"]
 	path = extension-telegram
 	url = git@git.timesnake.de:timesnake/minecraft/extension-telegram.git
