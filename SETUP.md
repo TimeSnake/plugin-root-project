@@ -11,7 +11,7 @@
 ### Installation
 
 1. Set up an ssh-key.
-2. Run `git clone --recurse-submodules git@git.timsnake.de:timesnake/minecraft/plugin-project.git`.
+2. Run `git clone --recurse-submodules git@git.timesnake.de:timesnake/minecraft/plugin-project.git`.
 3. Set up gradle variables in `~/.gradle/gradle.properties`:
     ```
    timesnakeUser=<user>
