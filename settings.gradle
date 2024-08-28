@@ -66,5 +66,6 @@ include('game-survival')
 include('game-survivalgames')
 include('game-traitorinwolfed')
 include('game-trapduel')
+include('game-treasureislands')
 include 'library-commands'
 include 'library-permissions'
