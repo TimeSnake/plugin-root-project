@@ -4,17 +4,16 @@
 
 ### Requirements
 
-- Java 17+
-- Maven 2
-- Gradle 8+
+- Java 21
+- Gradle 8.+
 
 ### Installation
 
 1. Set up an ssh-key.
-2. Run `git clone --recurse-submodules git@git.timesnake.de:timesnake/minecraft/plugin-project.git`.
+2. Run `git clone --recursive git@git.timesnake.de:timesnake/minecraft/plugin-project.git`.
 3. Set up gradle variables in `~/.gradle/gradle.properties`:
     ```
-   timesnakeUser=<user>
+   timesnakeUsername=<user>
    timesnakePassword=<access_token>
 
    timesnakePluginDir=<plugins_dir>
