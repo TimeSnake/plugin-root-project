@@ -145,3 +145,6 @@
 [submodule "games/game-treasureislands"]
 	path = games/game-treasureislands
 	url = git@git.timesnake.de:timesnake/minecraft/game-treasureislands
+[submodule "libraries-mc/library-pets"]
+	path = libraries-mc/library-pets
+	url = git@git.timesnake.de:timesnake/minecraft/library-pets.git
