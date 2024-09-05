@@ -1,7 +1,5 @@
 image: gradle:alpine
 
-variables:
-  GIT_STRATEGY: fetch
 
 before_script:
   - GRADLE_USER_HOME="$(pwd)/.gradle"
@@ -24,3 +22,5 @@ build:
       - .gradle
   tags:
     - gradle
+  only:
+    - tags
