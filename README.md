@@ -1,18 +1,37 @@
-# Minecraft-Server-Network
+# Minecraft Server Network
 
-This project consists of multiple plugins which run a minecraft server network including several games.
+This project runs a minecraft server network including unique games.
 
+---
 
-## Installation
+## Setup for Developers
 
-### Server-Network
+### Workspace
 
-This server network creates files and uses a database. To prevent errors, we provide a ready-to-run docker container.
-The regarding image can be requested from @funzter or admin@mail.timesnake.de.
+#### Requirements
 
-### Developement
+- Java 21
+- Gradle 8.+
 
-A setup guid for developers can be found in the [Setup](SETUP.md) file.
+#### Installation
+
+1. Set up an ssh-key on our gitlab.
+2. Run `git clone --recursive git@git.timesnake.de:timesnake/minecraft/plugin-project.git`.
+3. Set up gradle variables in `~/.gradle/gradle.properties`:
+    ```
+   timesnakeUsername=<user>
+   timesnakePassword=<access_token>
+
+   timesnakePluginDir=<plugins_dir>
+   ```
+4. Run `gradle build` in the project directory.
+
+### Test Setup
+
+We provide a ready to use docker container. A setup guide can be found in the [test-server] project.
+This is currently a private repository, for access please ask @funzter.
+
+---
 
 ## Code Style
 
@@ -21,7 +40,6 @@ https://google.github.io/styleguide/javaguide.html
 
 ## License
 
-The source is licensed under the GNU GPLv2 license that can be found in the [LICENSE](LICENSE)
-  file.
+The source is licensed under the GNU GPLv2 license that can be found in the [LICENSE](LICENSE) file.
 
-[Setup.md]: SETUP.md
+[test-server]: https://git.timesnake.de/timesnake/minecraft/test-server
