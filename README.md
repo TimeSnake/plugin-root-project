@@ -17,14 +17,15 @@ This project runs a minecraft server network including unique games.
 
 1. Set up an ssh-key on our gitlab.
 2. Run `git clone --recursive git@git.timesnake.de:timesnake/minecraft/plugin-project.git`.
-3. Set up gradle variables in `~/.gradle/gradle.properties`:
+3. Checkout the main branch on each repository: `git submodule foreach git checkout main`.
+4. Set up gradle variables in `~/.gradle/gradle.properties`:
     ```
    timesnakeUsername=<user>
    timesnakePassword=<access_token>
 
    timesnakePluginDir=<plugins_dir>
    ```
-4. Run `gradle build` in the project directory.
+5. Run `gradle build` in the project directory.
 
 ### Test Setup
 
