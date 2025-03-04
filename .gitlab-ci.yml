@@ -1,4 +1,4 @@
-image: gradle:8-jdk17-alpine
+image: gradle:8-jdk21-alpine
 
 
 before_script:
