@@ -1,25 +1,30 @@
 image: gradle:8-jdk21-alpine
 
-
 before_script:
-  - GRADLE_USER_HOME="$(pwd)/.gradle"
-  - export GRADLE_USER_HOME
+  - export GRADLE_USER_HOME="$(pwd)/.gradle"
   - mkdir -p $GRADLE_USER_HOME
-  - touch $GRADLE_USER_HOME/gradle.properties
   - mkdir -p ~/plugins
-  - echo "timesnakePluginDir=~/plugins" >> $GRADLE_USER_HOME/gradle.properties
-  - echo "timesnakeUsername=gitlab-ci-token" >> $GRADLE_USER_HOME/gradle.properties
-  - echo "timesnakePassword=$CI_JOB_TOKEN" >> $GRADLE_USER_HOME/gradle.properties
+
+variables:
+  CACHE_FALLBACK_KEY: main
+
+stages:
+  - build
+  - deploy
 
 build:
   stage: build
-  script: gradle assemble
+  script:
+    - >
+      gradle --build-cache assemble 
+      -PtimesnakeUsername='gitlab-ci-token' 
+      -PtimesnakePassword='$CI_JOB_TOKEN' 
+      -ptimesnakePluginDir='~/plugins'
   cache:
+    key: "$CI_COMMIT_REF_NAME"
     paths:
-      - .gradle/wrapper
-    key:
-      files:
-        - gradle/wrapper/gradle-wrapper.properties
+      - build
+      - .gradle
   tags:
     - gradle
   only:
