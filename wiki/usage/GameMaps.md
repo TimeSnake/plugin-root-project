@@ -56,85 +56,30 @@ For each team i:
 For all games:
 
 - `0`: spectator spawn (middle_facing)
-- `1`: start, on game start (middle_facing)
-- `2`: spawn, before game start (middle_facing)
+- `1`: spawn (middle_facing)
 
-BlockJump:
-
-- `3`: goal height (block)
-
-BoatRace:
-
-- `3`: goal (block)
-
-BuildOver:
-
-- `3`: goal (block)
-- `10` to `99`: map boundaries, polygon (block)
-
-ColorSwap/ColorPunch:
-
-- `3`: first map corner, inclusive (block)
-- `4`: second map corner, inclusive (block)
-
-Dropper:
-
-- `3`: goal height (block)
-
-Firefighter:
-
-- `3`: first map corner, inclusive (block)
-- `4`: second map corner, inclusive (block)
-
-HotFeet:
-
-- `3`: first map corner, inclusive (block)
-- `4`: second map corner, inclusive (block)
-
-LadderKing:
-
-- `3`: goal block (block)
-- `4`+: spawns (middle_facing)
-
-OreMiner:
-
-- `3`: first map corner, inclusive (block)
-- `4`: second map corner, inclusive (block)
-
-Parkour:
-
-- `3`: goal (block)
-
-RiseUp:
-
-- `3`: goal (block)
-
-SandStorm:
-
-- `3`: first map corner, inclusive (block)
-- `4`: second map corner, inclusive (block)
-
-Sheep:
-
-- `3`: first map corner, inclusive (block)
-- `4`: second map corner, inclusive (block)
-
-SlimySlime:
-
-- `3`: main slime spawn (middle)
-- `4`+: slime spawns (middle)
-
-Spleef:
-
-- `3`: death height (block)
-
-TntRun:
-
-- `3`: death height (block)
-
-HotPotato, KnockOut:
-
-- only default
+| Game           | 10 Goal    | 20-29 Spawns | 99 Death Height | 100-199 Arena | Other                                    |
+|----------------|------------|--------------|-----------------|---------------|------------------------------------------|
+| Block Jump     | x (height) |              |                 |               |                                          |
+| Boat Race      | x          |              |                 |               |                                          |
+| Build Over     | x          |              |                 | x             |                                          |
+| Color Swap     |            |              | x               |               |                                          |
+| Dropper        | x          |              |                 |               |                                          |
+| Egg Hunter     |            |              |                 | x             |                                          |
+| Firefighter    |            |              |                 | x             |                                          |
+| Hot Feet       |            |              |                 | x             |                                          |
+| Ladder King    | x          | x            |                 |               |                                          |
+| Ore Miner      |            |              |                 | x             |                                          |
+| Parkour        | x          |              |                 |               |                                          |
+| Puddle Jumping |            | x            |                 | x             |                                          |
+| Rise Up        | x          |              |                 |               |                                          |
+| Sand Storm     |            |              |                 | x             |                                          |
+| Sheeeep        |            |              |                 | x             |                                          |
+| Slimy Slime    |            |              |                 |               | 10: mother slime<br/>11-19: slime spawns |
+| Spleef         | x          |              |                 |               |                                          |
+| Tnt Run        | x          |              |                 |               |                                          |
+| Hot Potato     |            |              |                 |               |                                          |
+| Knock Out      |            |              |                 |               |                                          |
 
 ## MobDefence
 

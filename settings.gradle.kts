@@ -1,3 +1,10 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        maven("https://repo.papermc.io/repository/maven-public/")
+    }
+}
+
 // basic library modules
 include(":library-chat")
 include(":library-basic")
