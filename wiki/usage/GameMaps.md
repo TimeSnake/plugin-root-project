@@ -6,15 +6,18 @@
 
 - `0`: spectator spawn (facing_middle)
 
-For each team i:
+For each team `i`:
 
-- `i * 10`: spawn (middle_facing)
-- `i * 10 + 2`: bronze item spawner (middle)
-- `i * 10 + 3`: silver item spawner (middle)
-- `i * 10 + 4`: gold item spawner (middle)
-- `i * 10 + 5`: block villager position (middle_facing)
-- `i * 10 + 6`: weapon villager position (middle_facing)
-- `i * 10 + 7`: special villager position (middle_facing)
+- `i * 10 + 0`: spawn (middle_facing)
+- `i * 10 + 1`: block villager position (middle_facing)
+- `i * 10 + 2`: weapon villager position (middle_facing)
+- `i * 10 + 3`: special villager position (middle_facing)
+
+Item Spawner:
+
+- `100 + t + 10 + i`: bronze spawner `i`, with `2 * t` spawn delay (middle)
+- `200 + t + 10 + i`: silver spawner `i`, with `2 * t` spawn delay (middle)
+- `300 + t + 10 + i`: gold spawner `i`, with `2 * t` spawn delay (middle)
 
 ## BowRun
 
