@@ -15,9 +15,9 @@ For each team `i`:
 
 Item Spawner:
 
-- `1000 + t * 10 + i`: bronze spawner `i`, with `2 s * t` spawn delay (middle)
-- `2000 + t * 10 + i`: silver spawner `i`, with `2 s * t` spawn delay (middle)
-- `3000 + t * 10 + i`: gold spawner `i`, with `2 s * t` spawn delay (middle)
+- `1000 + t * 10 + i`: bronze spawner `i`, with `t` sec. spawn delay (middle)
+- `2000 + t * 10 + i`: silver spawner `i`, with `t` sec. spawn delay (middle)
+- `3000 + t * 10 + i`: gold spawner `i`, with `t` sec. spawn delay (middle)
 
 ## BowRun
 
